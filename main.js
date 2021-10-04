@@ -37,7 +37,7 @@ app.use(user.router);
 // });
 
 const port = process.env.PORT || 3000;
-app.listen(3000, (errors) => {
+app.listen(port, (errors) => {
   if (errors) {
     console.log("Server couldn't start. Error: " + errors);
   } else {
