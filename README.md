@@ -2,13 +2,18 @@
 
 This was created for a devOps demonstration of github pages and heroku.
 
-Github page of this repo: https://cotldus.github.io/nus-moneyapp-frontend/
+View app at https://cotldus.github.io/nus-moneyapp-frontend/
 
-Api calls: https://nus-moneyapp-backend.herokuapp.com/
+Dummy user:
 
-Frontend: https://github.com/cotldus/nus-moneyapp-frontend
+    "username": "Anatole",
+    "password": "WOfNDBm"
+   
+Other users: https://nus-moneyapp-backend.herokuapp.com/user/all
 
-Original app: https://github.com/cotldus/nus-moneyapp
+Frontend repo: https://github.com/cotldus/nus-moneyapp-frontend
+
+Original app repo: https://github.com/cotldus/nus-moneyapp
 
 
 See NUSmoneyapp.postman_collection.json for api details
