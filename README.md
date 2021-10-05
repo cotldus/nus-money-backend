@@ -1,7 +1,19 @@
-# nus-money-backend
+# Nus-money-backend
 
-This was created for deployment to heroku for devOps demonstration
+This was created for a devOps demonstration of github pages and heroku.
 
-Original app: https://github.com/cotldus/nus-moneyapp
+View app at https://cotldus.github.io/nus-moneyapp-frontend/
+
+Dummy user:
+
+    "username": "Anatole",
+    "password": "WOfNDBm"
+   
+Other users: https://nus-moneyapp-backend.herokuapp.com/user/all
+
+Frontend repo: https://github.com/cotldus/nus-moneyapp-frontend
+
+Original app repo: https://github.com/cotldus/nus-moneyapp
+
 
 See NUSmoneyapp.postman_collection.json for api details
