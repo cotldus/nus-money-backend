@@ -21,7 +21,7 @@ router.get('/transactions/all', (request, response) => {
   });
 })
 
-//http://localhost:3000/transactions/by-uid?user_id=3
+//https://nus-moneyapp-backend.herokuapp.com/transactions/by-uid?user_id=61503e85fc13ae62f500003c
 router.get("/transactions/by-uid", (request, response) => {
   let user_id = request.query.user_id;
   // let transaction = data.get_transaction_by_user_id(user_id);
@@ -40,7 +40,7 @@ router.get("/transactions/by-uid", (request, response) => {
   );
 });
 
-//http://localhost:3000/transactions/add
+//https://nus-moneyapp-backend.herokuapp.com/transactions/add
 router.post("/transactions/add", (request, response) => {
   let transaction = request.body;
   // data.add_transaction(transaction);
@@ -66,8 +66,8 @@ router.post("/transactions/add", (request, response) => {
   );
 });
 
-//http://localhost:3000/transactions/delete/by-tid?transaction_id=1
-router.delete("/transactions/delete/by-tid", (request, response) => {
+//https://nus-moneyapp-backend.herokuapp.com/transactions/delete/by-tid?transaction_id=61504ac7fc13ae132b000001
+router.get("/transactions/delete/by-tid", (request, response) => {
   let tid = request.query.transaction_id;
 
   console.log(tid)
